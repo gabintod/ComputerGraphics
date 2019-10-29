@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(488,21): warning C4305:  '+=' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(490,21): warning C4305:  '-=' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(500,39): warning C4244:  '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(501,39): warning C4244:  '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+  CompilerDesign_TP1.vcxproj -> C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\Debug\CompilerDesign_TP1.exe

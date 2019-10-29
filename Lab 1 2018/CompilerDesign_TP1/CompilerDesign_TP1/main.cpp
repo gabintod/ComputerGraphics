@@ -1,9 +1,12 @@
+#include <glm.hpp>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 #include <iostream>
 
 // Macro for indexing vertex buffer
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
+#define VEC3 glm::vec3
+#define VEC4 glm::vec4
 
 using namespace std;
 
@@ -175,7 +178,7 @@ GLuint CompileShaders2()
 
 // VBO Functions - click on + to expand
 #pragma region VBO_FUNCTIONS
-GLuint generateObjectBuffer(GLfloat vertices[], GLfloat colors[]) {
+GLuint generateObjectBuffer(VEC3 vertices[], VEC4 colors[]) {
 	GLuint numVertices = 3;
 	// Genderate 1 generic buffer object, called VBO
 	GLuint VBO;
@@ -184,10 +187,10 @@ GLuint generateObjectBuffer(GLfloat vertices[], GLfloat colors[]) {
 	// Buffer will contain an array of vertices 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
 	// After binding, we now fill our object with data, everything in "Vertices" goes to the GPU
-	glBufferData(GL_ARRAY_BUFFER, numVertices * 7 * sizeof(GLfloat), NULL, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, numVertices /* * 7 */ * sizeof(VEC3), NULL, GL_STATIC_DRAW);
 	// if you have more data besides vertices (e.g., vertex colours or normals), use glBufferSubData to tell the buffer when the vertices array ends and when the colors start
-	glBufferSubData(GL_ARRAY_BUFFER, 0, numVertices * 3 * sizeof(GLfloat), vertices);
-	glBufferSubData(GL_ARRAY_BUFFER, numVertices * 3 * sizeof(GLfloat), numVertices * 4 * sizeof(GLfloat), colors);
+	glBufferSubData(GL_ARRAY_BUFFER, 0, numVertices /* * 3 */ * sizeof(VEC3), vertices);
+	glBufferSubData(GL_ARRAY_BUFFER, numVertices /* * 3 */ * sizeof(VEC3), numVertices /* * 4 */ * sizeof(VEC4), colors);
 	return VBO;
 }
 
@@ -202,7 +205,7 @@ void linkCurrentBuffertoShader(GLuint shaderProgramID) {
 	glVertexAttribPointer(positionID, 3, GL_FLOAT, GL_FALSE, 0, 0);
 	// Similarly, for the color data.
 	glEnableVertexAttribArray(colorID);
-	glVertexAttribPointer(colorID, 4, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(numVertices * 3 * sizeof(GLfloat)));
+	glVertexAttribPointer(colorID, 4, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(numVertices /* * 3 */ * sizeof(VEC3)));
 }
 #pragma endregion VBO_FUNCTIONS
 
@@ -228,17 +231,17 @@ void display() {
 void init()
 {
 	// Create 3 vertices that make up a triangle that fits on the viewport 
-	GLfloat vertices[] = { -1.0f, -1.0f, 0.0f,
-			1.0f, -1.0f, 0.0f,
-			1.0f, 1.0f, 0.0f };
+	VEC3 vertices[] = {VEC3(-1.0f, -1.0f, 0.0f),
+			VEC3(1.0f, -1.0f, 0.0f),
+			VEC3(1.0f, 1.0f, 0.0f)};
 
-	GLfloat vertices2[] = { -1.0f, -1.0f, 0.0f,
-			-1.0f, 1.0f, 0.0f,
-			1.0f, 1.0f, 0.0f };
+	VEC3 vertices2[] = {VEC3(-1.0f, -1.0f, 0.0f),
+			VEC3(-1.0f, 1.0f, 0.0f),
+			VEC3(1.0f, 1.0f, 0.0f)};
 	// Create a color array that identfies the colors of each vertex (format R, G, B, A)
-	GLfloat colors[] = { 0.0f, 1.0f, 0.0f, 1.0f,
-			1.0f, 0.0f, 0.0f, 1.0f,
-			0.0f, 0.0f, 1.0f, 1.0f };
+	VEC4 colors[] = {VEC4(0.0f, 1.0f, 0.0f, 1.0f),
+			VEC4(1.0f, 0.0f, 0.0f, 1.0f),
+			VEC4(0.0f, 0.0f, 1.0f, 1.0f)};
 	// Set up the shaders
 	shaderProgramID = CompileShaders();
 	shaderProgramID2 = CompileShaders2();

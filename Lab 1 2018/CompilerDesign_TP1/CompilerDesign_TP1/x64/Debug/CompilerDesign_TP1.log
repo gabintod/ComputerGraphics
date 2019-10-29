@@ -1,2 +1,7 @@
 ﻿  main.cpp
-  CompilerDesign_TP1.vcxproj -> C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\x64\Debug\CompilerDesign_TP1.exe
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(293,53): warning C4267:  'argument' : conversion de 'size_t' en 'GLsizei', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(306,53): warning C4267:  'argument' : conversion de 'size_t' en 'GLsizei', perte possible de données
+main.obj : error LNK2019: symbole externe non résolu aiImportFile référencé dans la fonction "struct ModelData __cdecl load_mesh(char const *)" (?load_mesh@@YA?AUModelData@@PEBD@Z)
+main.obj : error LNK2019: symbole externe non résolu aiReleaseImport référencé dans la fonction "struct ModelData __cdecl load_mesh(char const *)" (?load_mesh@@YA?AUModelData@@PEBD@Z)
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\assimp\lib\Debug\assimp.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\x64\Debug\CompilerDesign_TP1.exe : fatal error LNK1120: 2 externes non résolus
