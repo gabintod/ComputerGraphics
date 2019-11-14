@@ -1,25 +1,25 @@
-#version 440
+#version 430
 
-layout (location = 0) in vec3 vertex_position;
-layout (location = 1) in vec3 vertex_color;
-layout (location = 2) in vec2 vertex_texcoord;
-layout (location = 3) in vec3 vertex_normal;
+in vec3 vertex_position;
+in vec3 vertex_normal;
+//  in vec2 vertex_tex;
 
-out vec3 vs_position;
-out vec3 vs_color;
-out vec2 vs_texcoord;
-out vec3 vs_normal;
+out Data
+{
+	vec3 Position;
+	vec3 Normal;
+	//   vec2 TexCoord;
+} data;
 
-uniform mat4 ModelMatrix;
-uniform mat4 ViewMatrix;
-uniform mat4 ProjectionMatrix;
+uniform mat4 ModelViewMatrix;
+// uniform mat3 NormalMatrix;
+uniform mat4 MVP;
 
 void main()
 {
-  vs_position = vec4(ModelMatrix * vec4(vertex_position, 1.f)).xyz;
-  vs_color = vertex_color;
-  vs_texcoord = vec2(vertex_texcoord.x, vertex_texcoord.y * -1.f);
-  vs_normal = mat3(ModelMatrix) * vertex_normal;
-
-  gl_Position = ProjectionMatrix * ViewMatrix * ModelMatrix * vec4(vertex_position, 1.f);
+	data.Normal = normalize( mat3(ModelViewMatrix) * vertex_normal );                     // normalize( NormalMatrix * vertex_normal );
+	data.Position = vec3( ModelViewMatrix * vec4( vertex_position, 1 ) );
+	// data.TexCoord = vertex_tex;
+	
+	gl_Position = MVP * vec4( vertex_position, 1 );
 }
