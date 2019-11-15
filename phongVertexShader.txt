@@ -2,24 +2,17 @@
 
 in vec3 vertex_position;
 in vec3 vertex_normal;
-//  in vec2 vertex_tex;
 
-out Data
-{
-	vec3 Position;
-	vec3 Normal;
-	//   vec2 TexCoord;
-} data;
+uniform mat4 projection_mat;
+uniform mat4 view_mat;
+uniform mat4 model_mat;
 
-uniform mat4 ModelViewMatrix;
-// uniform mat3 NormalMatrix;
-uniform mat4 MVP;
+out vec3 position_eye;
+out vec3 normal_eye;
 
 void main()
 {
-	data.Normal = normalize( mat3(ModelViewMatrix) * vertex_normal );                     // normalize( NormalMatrix * vertex_normal );
-	data.Position = vec3( ModelViewMatrix * vec4( vertex_position, 1 ) );
-	// data.TexCoord = vertex_tex;
-	
-	gl_Position = MVP * vec4( vertex_position, 1 );
+  position_eye = vec3 (view_mat * model_mat * vec4 (vertex_position, 1.0));
+  normal_eye = vec3 (view_mat * model_mat * vec4 (vertex_normal, 0.0));
+  gl_Position = projection_mat * vec4 (position_eye, 1.0);
 }

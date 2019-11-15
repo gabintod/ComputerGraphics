@@ -1,82 +1,54 @@
 #version 430
 
-struct LightInfo
+in vec3 position_eye;
+in vec3 normal_eye;
+
+// light properties
+struct Light
 {
-	vec3 Position;	//Light Position in eye-coords
-	vec3 La;		//Ambient light intensity
-	vec3 Ld;		//Diffuse light intensity
-	vec3 Ls;		//Specular light intensity
+	vec3 position;	// light position in world
+	vec3 Ls; // specular colour
+	vec3 Ld; // diffuse light colour
+	vec3 La; // ambient colour
 };
 
-struct MaterialInfo
+// material properties
+struct Material
 {
-	vec3 Ka;			//Ambient reflectivity
-	vec3 Kd;			//Diffuse reflectivity
-	vec3 Ks;			//Specular reflectivity
-	float Shininess;	//Specular shininess factor
+	vec3 Ks; // specular light reflectance
+	vec3 Kd; // diffuse surface reflectance
+	vec3 Ka; // ambient light reflectance
+	float specular_exponent; // specular 'power'
 };
 
-in Data
-{
-	vec3 Position;
-	vec3 Normal;
-	//	vec2 TexCoord;
-} data;
+out vec4 fragment_colour; // colour of surface
 
-out vec4 FragColor;
-
-uniform LightInfo Light[1 /* LIGHTCOUNT */];
-uniform MaterialInfo Material;
-//	uniform sampler2D Tex;
+uniform mat4 view_mat;
+uniform Light light;
+uniform Material material;
 uniform vec3 color;
-
-void light( int lightIndex, vec3 position, vec3 norm, out vec3 ambient, out vec3 diffuse, out vec3 spec )
-{
-	vec3 n = normalize( norm );
-	vec3 s = normalize( Light[lightIndex].Position - position );
-	vec3 v = normalize( -position );
-	vec3 r = reflect( -s, n );
-
-	ambient = Light[lightIndex].La * Material.Ka;
-	
-	float sDotN = max( dot( s, n ), 0.0 );
-	diffuse = Light[lightIndex].Ld * Material.Kd * sDotN;
-	
-	
-	spec = Light[lightIndex].Ls * Material.Ks * pow( max( dot(r,v) , 0.0 ), Material.Shininess ); 
-}
 
 void main()
 {
+	// ambient intensity
+	vec3 Ia = light.La * material.Ka;
 
-	vec3 ambientSum = vec3(0);
-	vec3 diffuseSum = vec3(0);
-	vec3 specSum = vec3(0);
-	vec3 ambient, diffuse, spec;
+	// diffuse intensity
+	vec3 light_position_eye = vec3 (view_mat * vec4 (light.position, 1.0));	// raise light position to eye space
+	vec3 distance_to_light_eye = light_position_eye - position_eye;
+	vec3 direction_to_light_eye = normalize (distance_to_light_eye);
+	float dot_prod = dot (direction_to_light_eye, normal_eye);
+	dot_prod = max (dot_prod, 0.0);
+	vec3 Id = light.Ld * material.Kd * dot_prod;
 
-	if ( gl_FrontFacing )
-	{
-		for( int i=0; i<1 /* LIGHTCOUNT */; ++i )
-		{
-			light( i, data.Position, data.Normal, ambient, diffuse, spec );
-			ambientSum += ambient;
-			diffuseSum += diffuse;
-			specSum += spec;
-		}
-	}
-	else
-	{
-		for( int i=0; i<1 /* LIGHTCOUNT */; ++i )
-		{
-			light( i, data.Position, -data.Normal, ambient, diffuse, spec );
-			ambientSum += ambient;
-			diffuseSum += diffuse;
-			specSum += spec;
-		}
-	}
-	ambientSum /= 1 /* LIGHTCOUNT */;
+	// specular intensity
+	vec3 reflection_eye = reflect (-direction_to_light_eye, normal_eye);
+	vec3 surface_to_viewer_eye = normalize (-position_eye);
+	float dot_prod_specular = dot (reflection_eye, surface_to_viewer_eye);
+	dot_prod_specular = max (dot_prod_specular, 0.0);
+	float specular_factor = pow (dot_prod_specular, material.specular_exponent);
+	vec3 Is = light.Ls * material.Ks * specular_factor;
 
-	//	vec4 texColor = texture(Tex, data.TexCoord);
-	
-	FragColor = vec4( ambientSum + diffuseSum, 1 ) * vec4 (color, 1) + vec4( specSum, 1 );			//	vec4( ambientSum + diffuseSum, 1 ) * texColor + vec4( specSum, 1 );
-} 
+	// colour of surface
+	fragment_colour = vec4 ((Is + Id + Ia) * color, 1.0);
+}

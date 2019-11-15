@@ -1,55 +1,78 @@
 ﻿  main.cpp
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(404,36): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(405,36): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(406,37): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(770,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(771,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(773,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(775,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(777,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(829,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(831,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(843,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(847,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(856,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(859,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(868,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(871,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(880,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(884,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(914,13): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(916,13): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(928,1): warning C4305: '-=' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(930,1): warning C4305: '+=' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(945,1): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(946,1): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(964,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(965,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(967,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(969,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(971,1): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1059,59): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1061,25): warning C4244: 'initialisation' : conversion de 'double' en 'GLfloat', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1074,36): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1132,50): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1132,71): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1132,92): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1133,95): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1141,105): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1151,46): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1152,46): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1153,48): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1224,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1228,28): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1232,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1236,26): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1265,19): warning C4305: '=' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1266,19): warning C4305: '=' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1267,20): warning C4305: '=' : troncation de 'double' à 'GLfloat'
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1301,26): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1305,26): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1309,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1313,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1356,51): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
-C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1357,51): warning C4244: '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(414,36): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(415,36): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(416,37): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(791,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(792,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(794,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(798,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(800,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(802,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(806,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(809,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(864,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(866,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(878,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(882,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(892,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(895,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(905,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(908,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(918,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(922,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(953,13): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(955,13): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(967,1): warning C4305: '-=' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(969,1): warning C4305: '+=' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(984,1): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(985,1): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1003,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1004,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1006,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1008,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1010,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1012,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1014,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1016,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1018,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1020,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1114,59): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1121,25): warning C4244: 'initialisation' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1144,37): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1207,50): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1207,71): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1207,92): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1208,95): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1214,92): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1218,105): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1228,46): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1229,46): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1230,48): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1297,88): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1298,46): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1299,88): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1309,88): warning C4244: '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1310,46): warning C4244: '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1311,88): warning C4244: '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1320,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1324,28): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1328,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1332,26): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1363,19): warning C4305: '=' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1364,19): warning C4305: '=' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1365,20): warning C4305: '=' : troncation de 'double' à 'GLfloat'
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1400,26): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1404,26): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1408,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1412,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1457,42): warning C4244: '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1458,11): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1459,42): warning C4244: '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1463,52): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1464,52): warning C4244: '-=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1472,108): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1473,66): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1474,108): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1477,67): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
+C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\main.cpp(1478,67): warning C4244: '+=' : conversion de 'double' en 'GLfloat', perte possible de données
   CompilerDesign_TP1.vcxproj -> C:\Users\Gabin\Documents\I4S\TrinityCollege\ComputerGraphics\ComputerGraphics\Lab 1 2018\CompilerDesign_TP1\Debug\CompilerDesign_TP1.exe
