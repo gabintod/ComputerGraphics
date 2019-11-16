@@ -31,7 +31,7 @@ void main(){
  vec3 s = normalize(vec3(lightPosition - eyeCoords));
   
   // The diffuse shading equation, dot product gives us the cosine of angle between the vectors
-  LightIntensity = max ( lightIntensity * color * max( dot( s, tnorm ), 0.0 ) , lightIntensity * color * max( dot( -s, tnorm ), 0.0 ) );
+  LightIntensity = lightIntensity * color * max( dot( s, tnorm ), 0.0 );
   
   // Convert position to clip coordinates and pass along
   gl_Position = proj * view * model * vec4(vertex_position,1.0);
