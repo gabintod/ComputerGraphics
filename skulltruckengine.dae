@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.75 commit date:2019-07-29, commit time:14:47, hash:f6cb5f54494e</authoring_tool>
     </contributor>
-    <created>2019-11-17T23:20:57</created>
-    <modified>2019-11-17T23:20:57</modified>
+    <created>2019-11-18T14:16:43</created>
+    <modified>2019-11-18T14:16:43</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="Material_004-effect">
+    <effect id="Material_002-effect">
       <profile_COMMON>
-        <newparam sid="engine_jpg_001-surface">
+        <newparam sid="engine_jpg_002-surface">
           <surface type="2D">
-            <init_from>engine_jpg_001</init_from>
+            <init_from>engine_jpg_002</init_from>
           </surface>
         </newparam>
-        <newparam sid="engine_jpg_001-sampler">
+        <newparam sid="engine_jpg_002-sampler">
           <sampler2D>
-            <source>engine_jpg_001-surface</source>
+            <source>engine_jpg_002-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="engine_jpg_001-sampler" texcoord="UVMap"/>
+              <texture texture="engine_jpg_002-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,13 +40,13 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="engine_jpg_001" name="engine_jpg_001">
-      <init_from>engine.jpg.001.jpg</init_from>
+    <image id="engine_jpg_002" name="engine_jpg_002">
+      <init_from>engine.jpg.002.jpg</init_from>
     </image>
   </library_images>
   <library_materials>
-    <material id="Material_004-material" name="Material.004">
-      <instance_effect url="#Material_004-effect"/>
+    <material id="Material_002-material" name="Material.002">
+      <instance_effect url="#Material_002-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -84,7 +84,7 @@
         <vertices id="Plane_001-mesh-vertices">
           <input semantic="POSITION" source="#Plane_001-mesh-positions"/>
         </vertices>
-        <triangles material="Material_004-material" count="24">
+        <triangles material="Material_002-material" count="24">
           <input semantic="VERTEX" source="#Plane_001-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Plane_001-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Plane_001-mesh-map-0" offset="2" set="0"/>
@@ -100,7 +100,7 @@
         <instance_geometry url="#Plane_001-mesh" name="engine">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material_004-material" target="#Material_004-material">
+              <instance_material symbol="Material_002-material" target="#Material_002-material">
                 <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>
